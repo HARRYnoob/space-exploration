@@ -1,0 +1,55 @@
+@font-face{
+   
+    src: url("SupremeSpike-KVO8D.otf");
+      font-family: StarJedi;
+
+ 
+}
+body{
+    background-image: url("surreal-landscape-with-planet.jpg");
+    margin: auto;
+    color:aliceblue;
+    background-size: cover;
+ /*  background-repeat:no-repeat;*/
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center ;
+    font-family:StarJedi;
+    letter-spacing: 2px;
+}
+.btn{
+   padding: 5px 10px;
+   border:none;
+   border-radius: 5px;
+   background-color: rgb(231, 136, 12); 
+   font-family: StarJedi;
+   letter-spacing: 2px;
+   margin: 0 12px;
+   cursor: pointer;
+   box-shadow: 2px 0px 3px rgb(190, 112, 56);
+
+}
+.btn:hover{
+   background-color: rgb(233, 176, 115);
+}
+#txt{
+   font-weight: 800;
+   color:rgb(198, 60, 10) ;
+}
+.tinytext{
+   font-size: 9px;
+   text-decoration: dotted;
+   color: rgb(255, 213, 174);
+}
+.container{
+   margin-top: 400px;
+    width: 100%;
+    padding-bottom: 20px;    
+}
+#img{
+   width: 100px;
+   margin-top: 50px;
+}
+#blur{
+   text-shadow:0px 0px 5px rgb(2, 0, 0);
+}
